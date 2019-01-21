@@ -1,0 +1,71 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  h1, h2, h3, h4, h5, h6 {
+    float: left;
+  }
+
+  h6 {
+    color: rgb(155, 155, 155);
+  }
+
+  .contextContainer {
+    margin-top: 20px;
+
+    div {
+      padding-left: 0px !important;
+    }
+
+    i {
+      margin-right: 20px;
+    }
+
+    .dragDropCol {
+      margin-right: 30px;
+      
+      .row {
+        margin-left: 0px !important;
+      }
+
+      .availableBorder {
+        background-image: linear-gradient(gray 33%, rgba(255,255,255,0) 0%);
+        background-position: right;
+        background-size: 2px 20px;
+        background-repeat: repeat-y;
+
+        div {
+          width: 95%;
+        }
+      }
+
+      // Selecting the divs created by react-beautiful-dnd
+      div > div > div {
+        padding: 10px 0px 10px 0px;
+
+        &:hover {
+          background-color: rgba(85, 85, 85, 0.3);
+        }
+
+        i {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .droppableContainer {
+      width: 450px;
+      height: 672px;
+    }
+  }
+
+  .configButtons {
+    margin-top: 10px;
+
+    .col {
+      padding-left: 0px !important;
+    }
+  }
+}
