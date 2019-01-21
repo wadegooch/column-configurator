@@ -1,5 +1,5 @@
 # Column Configurator
-This application is a coding exercise using React, [React-Bootstrap](https://react-bootstrap.github.io/), and [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd). Below is more information on Create React App, which was used to bootstrap the project.
+This application is a coding exercise using React, [React-Bootstrap](https://react-bootstrap.github.io/), and [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd). Below is pertinent information from the Create React App README, which was used to bootstrap the project.
 
 ![Column Configurator GIF](./public/column_configurator.gif)
 
