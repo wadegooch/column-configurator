@@ -26,3 +26,7 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Debugging with Visual Studio Code
+
+The .vscode folder has been included for demonstration purposes. After dependencies have been installed and the application has been started with `npm start`, the included debug configuration named 'Chrome' can be run from the Visual Studio Debug tools. A browser will attach to the locally running application to debug in Visual Studio Code. 
